@@ -6,7 +6,7 @@ Dive into the thrilling world of deduction and logic with Mastermind! This inter
 
 ## Key Features:
 ### Dynamic Difficulty Settings: Choose from Novice, Trying Hard, or Abandon All Hope modes, each with increasing code lengths and complexity.
-Randomized Secret Codes: Each game generates a unique code, making every session exciting and unpredictable.
+### Randomized Secret Codes: Each game generates a unique code, making every session exciting and unpredictable.
 ### User-Friendly Feedback: Get detailed insights into your guesses, including the number of correct digits and how many are in the right positions.
 ### Intuitive Commands: Play, quit, or even cheat (if you're feeling sneaky) with simple, easy-to-remember commands.
 ### Elegant Design: A clean and efficient Ruby implementation with modular code and thoughtful user prompts.
