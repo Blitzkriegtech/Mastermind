@@ -5,7 +5,7 @@ Mastermind built with Ruby CLI style
 Dive into the thrilling world of deduction and logic with Mastermind! This interactive command-line game challenges players to crack a secret code within a limited number of attempts. Perfect for puzzle enthusiasts and those who love testing their analytical skills, this game offers multiple difficulty levels, ensuring a fun and challenging experience for everyone.
 
 ## Key Features:
-### Dynamic Difficulty Settings: Choose from Novice, Trying Hard, or Abandon All Hope modes, each with increasing code lengths and complexity.
+### Dynamic Difficulty Settings: Choose from Novice, Warrior, or Abandon All Hope modes, each with increasing code lengths and complexity.
 ### Randomized Secret Codes: Each game generates a unique code, making every session exciting and unpredictable.
 ### User-Friendly Feedback: Get detailed insights into your guesses, including the number of correct digits and how many are in the right positions.
 ### Intuitive Commands: Play, quit, or even cheat (if you're feeling sneaky) with simple, easy-to-remember commands.
