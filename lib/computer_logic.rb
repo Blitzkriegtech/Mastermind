@@ -38,6 +38,8 @@ class BotSolver
   def correct_digit_count(code, guess)
     code_counts = code.tally
     guess_counts = guess.tally
-    code_counts.sum { |digits, count| [count, guess_counts[digits] || 0].min }
+    code_counts.sum do |digits, count|
+      [count, guess_counts[digits] || 0].min
+    end
   end
 end

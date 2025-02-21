@@ -4,10 +4,15 @@
 module GameModes
   # module for human to set code
   module HumanCodeCreator
+    # NUMBERS = {
+    #   novice: %w[red orange yellow blue].freeze,
+    #   warrior: %w[red orange yellow blue green].freeze,
+    #   no_hope: %w[red orange yellow blue green black].freeze
+    # }.freeze
     NUMBERS = {
-      novice: %w[1 2 3 4].freeze,
-      warrior: %w[1 2 3 4 5 6].freeze,
-      no_hope: %w[1 2 3 4 5 6 7 8].freeze
+      novice: %w[1 2 3 4],
+      warrior: %w[1 2 3 4 5],
+      no_hope: %w[1 2 3 4 5 6]
     }.freeze
 
     def human_set_code

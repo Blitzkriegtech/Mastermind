@@ -17,7 +17,7 @@ class Game
       input = gets.chomp.downcase
 
       case input
-      when 'p', 'play' then @game_logic.setup_game
+      when 'p', 'play' then @game_logic.play
       when 'i', 'instructions' then instructions
       when 'q', 'quit' then @game_logic.exit_game
       else puts "\nInvalid input. Please choose from (p)lay, (i)nstructions, or (q)uit options.\nThank you\n---------"
@@ -25,3 +25,6 @@ class Game
     end
   end
 end
+
+test = Game.new
+test.start
