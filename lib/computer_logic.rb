@@ -29,10 +29,12 @@ class BotSolver
 
   private
 
+  # counts the elements/digits that are both correct in pos and elements/digits
   def exact_matches(code, guess)
     code.zip(guess).count { |c, g| c == g }
   end
 
+  # counts the correct elements regardless of the position/index
   def correct_digit_count(code, guess)
     code_counts = code.tally
     guess_counts = guess.tally
