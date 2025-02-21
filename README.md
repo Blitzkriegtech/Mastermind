@@ -15,4 +15,4 @@ Select your preferred difficulty level.
 Guess the secret code, which consists of numbers.
 After each guess, receive feedback on how many digits are correct and in the correct position.
 Solve the code within 12 attempts to win—or face the defeat screen if you run out of tries!
-With its well-crafted logic and focus on user experience, Mastermind is a must-play for anyone looking to sharpen their logical thinking or simply enjoy a fun and engaging game.
+With its well-crafted logic and focus on user experience, Mastermind is a must-play for anyone looking to sharpen their logical thinking or simply enjoy a fun and engaging game. To run the game go to your app directory e.g.,ikkitousen@IkkiTousen:~/ruby/Mastermind$ then run bundle exec ruby bin/main.rb in your commandline.
